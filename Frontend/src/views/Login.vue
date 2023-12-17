@@ -18,7 +18,7 @@
                   <div class="mb-3">
                     <label for="username" class="form-label text-dark">Username:</label>
                     <input type="text" id="username" class="form-control text-dark" v-model="username"
-                      placeholder="Enter your UserName Here!" />
+                      placeholder="Type Here" />
                   </div>
                   <div class="mb-3">
                     <label for="password" class="form-label text-dark">Password:</label>

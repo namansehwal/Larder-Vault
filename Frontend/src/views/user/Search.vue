@@ -8,7 +8,7 @@
             <select v-model="searchCriteria" class="form-control" id="searchCriteria">
               <option value="category">Category</option>
               <option value="price">Price</option>
-              <option value="manufactureDate">Manufacture Date</option>
+              <option value="manufactureDate">Expiry Date</option>
             </select>
           </div>
           <div v-if="searchCriteria === 'category'" class="form-group col-md-7">
