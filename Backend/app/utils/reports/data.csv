@@ -2,7 +2,7 @@ name,price,stock,units_sold,category_name
 Banana,40,195,5,Fruits
 Apples,100,225,5,Fruits
 Spinach,30,78,2,Vegetables
-Tomatoes,50,148,2,Vegetables
+Tomatoes,50,146,4,Vegetables
 Oranges,60,393,7,Fruits
 Grapes,80,92,8,Fruits
 Milk,60,92,8,Dairy
@@ -14,7 +14,7 @@ Chicken breasts,400,35,5,Meat
 Diapers,30,494,6,Baby Care
 Bottled water,40,91,9,Beverages
 Green tea,70,332,8,Beverages
-Cola,90,310,10,Beverages
+Cola,90,290,10,Beverages
 Ice cream,280,536,4,Frozen Food
 French fries,250,430,0,Frozen Food
 Mango,40,230,0,Fruits
