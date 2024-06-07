@@ -14,12 +14,11 @@ class Config:
     JWT_BLACKLIST_TOKEN_CHECKS = ["access", "refresh"]
     JWT_ACCESS_TOKEN_EXPIRES = timedelta(seconds=1000000)
 
-    CACHE_TYPE= 'RedisCache'
-    CACHE_REDIS_URL= 'redis://localhost:6379/3'
+    CACHE_TYPE = 'redis'
+    CACHE_REDIS_HOST = 'lardervaultredis.redis.cache.windows.net'
+    CACHE_REDIS_PORT = 6380
+    CACHE_REDIS_PASSWORD = 'kaYgyir0txdrrLpHnMCHCy4ktfLnKG2EHAzCaLaIoIo='
+    CACHE_REDIS_SSL = True    
     CACHE_DEFAULT_TIMEOUT= 300
      
 
-    
-
-
-   
