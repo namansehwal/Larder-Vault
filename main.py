@@ -5,6 +5,13 @@ from celery.schedules import crontab
 
 celery_app = celery_init_app(app)
 
+@app.get('/')
+def get_csv(): 
+    return 'Welcome to The API Server!!'
+
+@app.get('/dumb')
+def get_csv(): 
+    return 'Welcome to The API Server!! dumb'
 
 @celery_app.on_after_configure.connect
 def setup_periodic_tasks(sender, **kwargs):
